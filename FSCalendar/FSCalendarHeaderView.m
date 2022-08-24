@@ -266,7 +266,7 @@
     if (self) {
         self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         self.minimumInteritemSpacing = 0;
-        self.minimumLineSpacing = 0;
+        self.minimumLineSpacing = 20;
         self.sectionInset = UIEdgeInsetsZero;
         self.itemSize = CGSizeMake(1, 1);
         [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(didReceiveOrientationChangeNotification:) name:UIDeviceOrientationDidChangeNotification object:nil];
