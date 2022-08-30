@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name             = "FSCalendar"
+  s.name             = "KKFSCalendar"
   s.version          = "2.8.4"
   s.summary          = "A superiorly awesome iOS7+ calendar control, compatible with Objective-C and Swift."
   
